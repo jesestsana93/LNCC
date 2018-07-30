@@ -1,0 +1,298 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: black;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-family: 'Helvetica';
+}
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	min-height: 730px;
+	position: relative;
+}
+a:active, a:hover{
+	text-decoration: none !important;
+	color: #FF671B !important;
+}
+.dropdown-item:active {
+    background-color:#fff !important;
+}
+
+.float{
+	float: left;
+}
+.mobile{
+	display: none;
+}
+.btn{
+	cursor: pointer;
+}
+header{
+  width: 100%;
+  background-color: white;
+  height: 123px;
+  position: fixed;
+  z-index: 999;
+}
+header div{
+  height: 100%;
+}
+header div img{
+  height: 100%;
+  padding: 20px;
+}
+header div nav{
+  padding-top: 48px;
+  float: right;
+}
+header div nav a{
+	font-size: 18px;
+	color: #FF671B !important;
+	padding-left: 9px;
+}
+.open-submenu:hover ul.submenu{
+	display: block;
+    top: -2px;
+    left: calc(100% - 1px);
+}
+.open-submenu:hover ul.submenu.left{
+	display: block;
+    top: -2px;
+    left: -182px;
+}
+h1{
+	font-size: 24px;
+}
+.cont{
+	width: 100%;
+	max-width: 1366px;
+	margin: auto;
+	position: relative;
+}
+.center-cont{
+	height: 100%;
+	display: table;
+}
+.center-elem{
+	display: table-cell;
+	vertical-align: middle;
+}
+.top{
+	position: relative;
+	top: 123px;
+}
+/*Banner*/
+#banner{
+	width: 100%;
+	height: 322px;
+	position: relative;
+	background-color: black;
+	position: relative;
+}
+#banner .arrows{
+    padding: 0 15px;
+}
+#banner .arrows .next{
+    position: absolute;
+    top: 100px;
+	right: 15px;
+	height: 70px;
+	z-index: 9;
+}
+#banner .arrows .prev{
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Come, Safari, Opera */
+    transform: rotate(180deg);
+    height: 70px;
+    position: absolute;
+    top: 100px;
+	left: 15px;
+	z-index: 9;
+}
+#banner .arrows img{
+	visibility: hidden;
+	cursor: pointer;
+}
+.sliderBanner{
+	width: 1366px;
+	height: 521px;
+}
+
+.slick-slide{
+	text-align: center;
+}
+.slick-dots {
+  top: 15px;
+  right: 40px;
+}
+
+#social{
+	padding: 0 50px;
+	height: 30px;
+	background: black;
+	text-align: right;
+}
+#social img{
+	display: inline-block;
+	vertical-align: middle;
+	height: 25px;
+	margin: 15px 15px;
+}
+#social a.elecciones:nth-child(1){
+	float: left;
+    line-height: 55px;
+}
+#social a.elecciones:nth-child(2){
+	float: left;
+	margin-left: 10px;
+	line-height: 60px;
+}
+#social .socialIcons{
+	float: right;
+}
+
+.table{
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+.cel{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15pt;
+}
+.thumbnail .imgWrapper{
+	width: 100%;
+	overflow: hidden;
+	height: auto;
+}
+.m-b-20{
+	margin-bottom: 20px;
+}
+
+.thumbnail .imgWrapper img{
+	width: 125%;
+	margin-left: -25%;
+	height: auto;
+}
+.negro{
+	color: black;
+}
+.linea{	
+	height: 30px;
+	background-color:#FF671B !important; 
+}
+hr{
+   height:5px;
+   background-color:#FF671B !important; /**Orange */
+   border:solid;
+ }
+p{
+	font-size: 12pt;
+}
+h2{
+	font-size: 18pt !important;
+}
+.image-responsive{
+	width: 100%;
+}
+.tamCONACYT{
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+}
+.tamUNAM{
+	height: 110px;
+	width: 90px;
+}
+.tamUNAMOS{
+	height: 120px;
+	width: 150px;
+}
+
+.tamLinks{
+	font-size: 12pt;
+}
+.footerC3{
+	margin-top: 210px;
+	/*height:323px;*/
+	width:100%;	
+	font-size: 15pt;
+	color:white;
+}
+.borders {
+	border-right-color: orange;
+ 	border-right-style: solid;
+    border-right-width: 2px;
+    margin-right: 10px;
+}
+
+@font-face {
+    font-family: Din;
+    src: url(../fonts/DINPro.otf);
+}
+ul.nav.navbar-right.nav-pills li{
+  padding: 3px;
+}
+
+.relative{
+	position: relative;
+}
+.caption{
+	height: 135px;
+    overflow: hidden;
+}
+.caption p{
+	padding-left:30px;
+}
+.caption h3{
+	display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.btn-bottom{
+	position: absolute;
+	bottom: 10px;
+}
+.
+.color-table > div:nth-of-type(odd){
+	background-color: #e0dada;
+}
+.clickProy{
+	cursor: pointer;
+}
+.auto{
+	margin: auto;
+}
+.nameDate{
+	padding-top: 10px;
+}
+.nameDate h5:nth-child(1) {
+	text-align: left;
+}
+.nameDate h5:nth-child(2){
+	text-align: right;
+}
+.tamMed{
+	height: 100px;
+	width: 100px;
+}
+.tampm{
+	font-size: 9pt;
+	margin-top: -10px;
+}
+
+.t{
+	margin-bottom: 1px;
+}
+.btnvideo{
+	margin-left: 15px;
+}
+
