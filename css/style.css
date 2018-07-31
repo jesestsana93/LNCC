@@ -22,7 +22,6 @@ a:active, a:hover{
 .dropdown-item:active {
     background-color:#fff !important;
 }
-
 .float{
 	float: left;
 }
@@ -74,14 +73,7 @@ h1{
 	margin: auto;
 	position: relative;
 }
-.center-cont{
-	height: 100%;
-	display: table;
-}
-.center-elem{
-	display: table-cell;
-	vertical-align: middle;
-}
+
 .top{
 	position: relative;
 	top: 123px;
@@ -151,27 +143,6 @@ h1{
   top: 15px;
   right: 40px;
 }
-.cel{
-	display: table-cell;
-	vertical-align: middle;
-	text-align: center;
-	font-weight: bold;
-	font-size: 15pt;
-}
-.thumbnail .imgWrapper{
-	width: 100%;
-	overflow: hidden;
-	height: auto;
-}
-.m-b-20{
-	margin-bottom: 20px;
-}
-
-.thumbnail .imgWrapper img{
-	width: 125%;
-	margin-left: -25%;
-	height: auto;
-}
 .naranja{
 	color:#FF671B !important;
 }
@@ -198,6 +169,7 @@ h2{
 }
 .image-responsive{
 	width: 100%;
+	margin-bottom: 15px;
 }
 .tamCONACYT{
 	height: 100px;
@@ -216,7 +188,7 @@ h2{
 	font-size: 12pt;
 }
 .footerC3{
-	margin-top: 40px;
+	margin-top: 180px;
 	/*height:323px;*/
 	width:100%;
 	font-size: 15pt;

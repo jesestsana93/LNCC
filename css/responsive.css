@@ -6,16 +6,9 @@
     height: 82%;
     margin-top: 11px;
   }
-  .infoNot {
-    height: 330px;
-  }
-  .infoNot button {
-    bottom: 15px;
-  }
   .slick-dots{
     display: none !important;
-  }
-  
+  }  
 }
 
 @media screen and (max-width: 830px) {
@@ -25,22 +18,8 @@
   .mobile{
     display: block;
   }
-  #social-mobile{
-    border-bottom: 2px solid white;
-  }
   .top{
     top: 80px;
-  }
-  #social{
-    text-align: center;
-    height: 80px;
-    padding-top: 4px;
-  }
-  #social a:first-child, #social a:nth-child(2){
-    display: block;
-  }
-  #social a{
-    display: none;
   }
   #header-mobile{
     width: 100%;
@@ -53,11 +32,6 @@
     display: inline-block;
     height: 100%;
     padding: 15px;
-  }
-  #social-mobile img{
-    width: 35px;
-    margin: 18px;
-    display: inline-block;
   }
   #menu-mobile{
     position: fixed;
@@ -200,15 +174,6 @@
     font-size: 18px;
     border-bottom: 1px solid white;
   }
-  /*.optsMenu div:last-child{
-    border: none;
-  }*/
-  #optsPro.open{
-    height: 150px;
-  }
-  #optsCon.open{
-    height: 120px;
-  }
    #optsC3.open{
     height: 180px;
    }
@@ -225,17 +190,10 @@
     font-size: 15pt;
   }
   .footerC3{
-    margin-top: 40px;
+    margin-top: 180px;
   }
   .foot{
     background-color: white;
-  }
-  .tam2{
-    width: 100%;
-    height: 100%;
-  }
-  .nameDate h4, .nameDate h5{
-    text-align: left;
   }
 }
 
