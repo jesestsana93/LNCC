@@ -61,25 +61,24 @@ function menu(){
 	}
 	$('header').append(`
 		<div class="container">
-			<div class="row">
-				<div class="col-3 float">
+			<div class="col-4 float">
 				<a href="index.html" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a UNAM.mx'});">
 					<img src="`+pathImg+`/logos/LNCC.png" alt="LNCC">
 				</a>
-				</div>
-				<div class="col-9 float text-right">
+			</div>
+			<div class="col-8 float text-right">
 				<a href="`+path+`https://www.c3.unam.mx/" target="_blank" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a home'});">
 					<img src="`+pathImg+`/logos/C3.png" alt="C3" >
 				</a>
 				<a href="`+path+`https://elcolegiodemorelos.edu.mx/" target="_blank" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a home'});">
 					<img src="`+pathImg+`/logos/MORELOS.png" alt="MORELOS">
 				</a>
-				<a href="`+path+`index.html" target="_blank" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a home'});">
-					<img src="`+pathImg+`/logos/CIDEA.png" alt="CIDEA">
+				<a href="`+path+`https://www.ciad.mx/" target="_blank" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a home'});">
+					<img src="`+pathImg+`/logos/CIAD.png" alt="CIAD">
 				</a>
-			</div>
-			</div>
+			</div>	
 
+	        		
 		</div>
 	`)
 };
@@ -103,7 +102,7 @@ function footer(){
 								<h3>LIGAS DE INTERÉS</h3>
 							</strong> <br>
 							<a href="https://www.unam.mx/" target="_blank" class="tamLinks negro">
-								Universidad Nacional Autónoma de México
+								<p>Universidad Nacional Autónoma de México
 							</a>
 							<br>
 							<a href="http://www.unamenlinea.unam.mx/" target="_blank" class="tamLinks negro">
@@ -162,7 +161,11 @@ function footer(){
 								</a>
 							</div>
 							<div class="caption">
-								<p>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2018. Esta página y sus contenidos pueden ser reproducidos con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.De otra forma, requiere permiso previo por escrito de la institución.
+								<p>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos 
+								los derechos reservados 2018.Esta página y sus contenidos pueden ser 
+								reproducidos con fines no lucrativos, siempre y cuando no se mutile, 
+								se cite la fuente completa y su dirección electrónica.De otra forma,
+								requiere permiso previo por escrito de la institución.
 								</p>
 							</div>
 						</div>
@@ -181,145 +184,51 @@ function menuMobile(){
 		pathImg = 'image';
 	}
 	$('#menu-mobile').append(`
-		<div class="cont-menu">
-			<div id="social-mobile" class="mobile">
-				<a href="https://twitter.com/C3UNAM" target="_blank">
-					<img src="`+pathImg+`/logos/LNCC.png">
-				</a>
-				<a href="https://www.facebook.com/C3.unam/" target="_blank">
-					<img src="`+pathImg+`/logos/C3.png">
-				</a>
-				<a href="https://www.youtube.com/channel/UCdFtQriC1qPauDfFcqO3FCQ/videos" target="_blank">
-					<img src="`+pathImg+`/logos/MORELOS.png">
-				</a>
-				<a href="mailto:comunicacion@c3.unam.mx" target="_blank">
-					<img src="`+pathImg+`/logos/CIDEA.png">
-				</a>
-			</div>
+		<div class="cont-menu">			
 			<div class="clickMenu">
-				<div class="op">C3</div>
 				<div id="optsC3" class="optsMenu">
 					<div>
-						<a href="`+path+`presentacion.html" >
-							<div>Presentación</div>
+						<a href="`+path+`infraestructura.html" >
+							<div>Infraestructura</div>
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`directorio.html" >
+						<a href="`+path+`colaboradores.html" >
 							<div>Directorio</div>
 						</a>
 					</div>
 					<div>
 						<a href="`+path+`estr_acad.html" >
-							<div>Estructura académica</div>
+							<div>Colaboradores</div>
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`ubicacionc3.html" >
-							<div>Ubicación</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="clickMenu">
-				<div class="op">INVESTIGACIÓN</div>
-				<div id="optsInv" class="optsMenu">
-					<a href="`+path+`progacademicos.html" >
-						<div>Programas académicos</div>
-					</a>
-					<a href="`+path+`investigadores.html" >
-						<div>Investigadores</div>
-					</a>
-					<a href="`+path+`http://scifunam.fisica.unam.mx/mir/copit/" target="_blank">
-						<div>Copit arXives</div>
-					</a>
-				</div>
-			</div>
-			<div class="clickMenu">
-				<div class="op">EVENTOS</div>
-				<div id="optsEvent" class="optsMenu">
-					<div>
-						<a href="`+path+`eventosProximos.html" >
-							<div>Próximos Eventos</div>
+						<a href="`+path+`lineasinvestigacion.html" >
+							<div>Líneas de Investigación</div>
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`eventosAnteriores.html" >
-							<div>Eventos Anteriores</div>
+						<a href="`+path+`participantes.html" >
+							<div>Participantes</div>
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`coloquios/coloquioC3.html" >
-							<div>Coloquio C3</div>
+						<a href="`+path+`proyectos.html" >
+							<div>Proyectos</div>
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`eventos/antersemanacomplejidad.html" >
-							<div>2SCC</div>
-						</a>
-					</div>
-					<div >
-						<a href="https://www.youtube.com/channel/UCdFtQriC1qPauDfFcqO3FCQ/videos">
-							<div class>Vídeos</div>
-						</a>
-					</div>
-					<div >
-						<a href="`+path+`intExposiciones.html">
-							<div class>Exposiciones</div>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="clickMenu">
-				<div class="op">COMUNICACIÓN</div>
-				<div id="optsPro" class="optsMenu">
-					<div>
-						<a href="`+path+`comnoticias.html" >
-							<div>Noticias</div>
+						<a href="`+path+`servicios.html" >
+							<div>Servicios</div>
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`comboletines.html" >
-							<div>Boletines</div>
-						</a>
-					</div>
-					<div>
-						<a href="`+path+`publicaciones/publicaciones.html">
+						<a href="`+path+`publicaciones.html" >
 							<div>Publicaciones</div>
 						</a>
 					</div>
-					<div>
-						<a href="`+path+`c3enlosmedios/c3medios2018.html">
-							<div>C3 en los medios</div>
-						</a>
-					</div>
-					<div>
-						<a href="`+path+`unidades.html">
-							<div>Contacto</div>
-						</a>
-					</div>
 				</div>
-			</div>
-			<div class="clickMenu">
-				<div class="op">UNIDADES DE APOYO</div>
-				<div id="optsInv" class="optsMenu">
-					<div>
-						<a href="`+path+`vinculacion.html" >
-							<div>Vinculación</div>
-						</a>
-					</div>
-					<div>
-						<a href="`+path+`unidades.html" >
-							<div>Unidad de comunicación y ...</div>
-						</a>
-					</div>
-					<div>
-						<a href="`+path+`cienciasdatos.html" >
-							<div>Ciencias de los datos y ...</div>
-						</a>
-					</div>
-				</div>
-			</div>
+			</div>				
 		</div>
 	`);
 };
@@ -341,9 +250,10 @@ function headerMobile(){
 		<a href="https://elcolegiodemorelos.edu.mx/" target="_blank" >
 			<img src="`+pathImg+`/logos/MORELOS.png" alt="MORELOS">
 		</a>
-		<a href="https://www.unam.mx/" target="_blank" >
-			<img src="`+pathImg+`/logos/CIDEA.png" alt="CIDEA">
+		<a href="https://www.ciad.mx/" target="_blank" >
+			<img src="`+pathImg+`/logos/CIAD.png" alt="CIAD">
 		</a>
+		
 		<div id="nav-icon2">
 			<span></span>
 			<span></span>

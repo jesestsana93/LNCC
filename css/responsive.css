@@ -193,7 +193,7 @@
   }
   .optsMenu div{
     width: 100%;
-    height: 30px;
+    height: 200px;
     color: white;
     line-height: 40px;
     font-weight: bold;
@@ -210,14 +210,8 @@
     height: 120px;
   }
    #optsC3.open{
-    height: 120px;
-   }
-  #optsInv.open{
-    height: 90px;
-  }
-  #optsEvent.open{
     height: 180px;
-  }
+   }
   /*Banner*/
   #banner  .arrows{
     display: none;
@@ -231,7 +225,7 @@
     font-size: 15pt;
   }
   .footerC3{
-    margin-top: 190px;
+    margin-top: 40px;
   }
   .foot{
     background-color: white;
