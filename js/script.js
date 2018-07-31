@@ -45,7 +45,7 @@ $(document).ready(function(){
 		console.log("hover")
 	}
 	)
-	//var myVideo =  iframe.getElementById('videoY'); 
+	//var myVideo =  iframe.getElementById('videoY');
 	//myVideo.mute();
 });
 var pageName = window.location.pathname.split('/')[window.location.pathname.split('/').length-1].substring(0,4)
@@ -60,14 +60,14 @@ function menu(){
 		pathImg = 'image';
 	}
 	$('header').append(`
-		<div class="cont">
+		<div class="container">
 			<div class="row">
 				<div class="col-3 float">
 				<a href="index.html" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a UNAM.mx'});">
 					<img src="`+pathImg+`/logos/LNCC.png" alt="LNCC">
 				</a>
 				</div>
-				<div class="col-9 float">
+				<div class="col-9 float text-right">
 				<a href="`+path+`https://www.c3.unam.mx/" target="_blank" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a home'});">
 					<img src="`+pathImg+`/logos/C3.png" alt="C3" >
 				</a>
@@ -79,7 +79,7 @@ function menu(){
 				</a>
 			</div>
 			</div>
-			
+
 		</div>
 	`)
 };
@@ -95,7 +95,7 @@ function footer(){
 		<div class="container foot">
 		<hr>
 			<div class="row">
-				<div class="col-sm-12 col-md-12">					
+				<div class="col-sm-12 col-md-12">
 					<div class="row">
 						<div class="col-sm-12 col-md-5">
 						<br>
@@ -128,10 +128,10 @@ function footer(){
 							<br>
 							<a href="http://www.gaceta.unam.mx/" target="_blank" class="tamLinks negro">
 							Gaceta UNAM
-							</a> 
-							<br>							
+							</a>
+							<br>
 						</div>
-							
+
 						<div class="col-sm-12 col-md-4">
 							<br>
 							<strong>
@@ -149,10 +149,10 @@ function footer(){
 							</a>
 							<a href="https://www.conacyt.gob.mx/" target="_blank">
 								<img src="`+pathImg+`/logos/CONACYT.png" alt="CONACYT" class="tamCONACYT" >
-							</a> 
+							</a>
 						</div>
 					</div>
-					
+
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<br>
@@ -162,12 +162,12 @@ function footer(){
 								</a>
 							</div>
 							<div class="caption">
-								<p>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2018. Esta página y sus contenidos pueden ser reproducidos con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.De otra forma, requiere permiso previo por escrito de la institución. 
+								<p>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados 2018. Esta página y sus contenidos pueden ser reproducidos con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.De otra forma, requiere permiso previo por escrito de la institución.
 								</p>
-							</div>			
+							</div>
 						</div>
-					</div>					
-				</div>				
+					</div>
+				</div>
 			</div>
 		</div>
 	`);
@@ -218,7 +218,7 @@ function menuMobile(){
 						<a href="`+path+`ubicacionc3.html" >
 							<div>Ubicación</div>
 						</a>
-					</div>					
+					</div>
 				</div>
 			</div>
 			<div class="clickMenu">
@@ -299,10 +299,10 @@ function menuMobile(){
 						</a>
 					</div>
 				</div>
-			</div>			
+			</div>
 			<div class="clickMenu">
 				<div class="op">UNIDADES DE APOYO</div>
-				<div id="optsInv" class="optsMenu">					
+				<div id="optsInv" class="optsMenu">
 					<div>
 						<a href="`+path+`vinculacion.html" >
 							<div>Vinculación</div>
