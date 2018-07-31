@@ -158,6 +158,13 @@ h1{
 	width: 242px;
 	height: 242px;
 }
+.img-circle2{
+	margin-top: 30px;	
+	margin-bottom: 15px;
+	margin-left: 110px;
+	width: 150px;
+	height: 150px;
+}
 hr{
    height:5px;
    background-color:#FF671B !important; /**Orange */
