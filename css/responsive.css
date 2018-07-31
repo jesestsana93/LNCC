@@ -22,6 +22,10 @@
   header{
     display: none !important;
   }
+  #bar-menu{height: 50px;}
+  #bar-menu ul{
+    display: none;
+  }
   .mobile{
     display: block;
   }
@@ -51,8 +55,8 @@
   }
   #header-mobile img{
     display: inline-block;
-    height: 100%;
-    padding: 15px;
+    height: 93%;
+    padding: 13px;
   }
   #social-mobile img{
     width: 35px;
@@ -145,14 +149,12 @@
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-    background: #d3531a;
   }
   #nav-icon2.open span:nth-child(2),#nav-icon2.open span:nth-child(5) {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    background: #d3531a;
   }
   #nav-icon2.open span:nth-child(1) {
     left: 5px;
@@ -181,10 +183,10 @@
   /*submenus*/
   .optsMenu{
     width: 250px;
-    margin: auto;
+    margin: 95px auto;
     text-align: center;
     background: #f16f35fa;
-    height: 0px;
+    /*height: 0px;*/
     overflow: hidden;
     -webkit-transition: .55s all;
     -moz-transition: .55s all;
@@ -193,7 +195,7 @@
   }
   .optsMenu div{
     width: 100%;
-    height: 200px;
+    height: 45px;
     color: white;
     line-height: 40px;
     font-weight: bold;
@@ -276,7 +278,7 @@
     bottom: 89px !important;
   }
   #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4{
-    margin: 23px 15px 23px 0 !important;
+    margin: 8px 15px 23px 0 !important;
   }
   .c3medios{
     height: 150px;

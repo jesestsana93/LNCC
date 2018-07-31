@@ -254,13 +254,6 @@ function headerMobile(){
 			<img src="`+pathImg+`/logos/CIAD.png" alt="CIAD">
 		</a>
 		
-		<div id="nav-icon2">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
+		
 	`);
 }
