@@ -204,6 +204,15 @@ h1{
 .negro{
 	color: black;
 }
+.naranja{
+	color:#FF671B !important;
+}
+.img-circle{
+	margin-top: 30px;	
+	margin-left: 20px;
+	width: 296px;
+	height: 296px;
+}
 .linea{
 	height: 30px;
 	background-color:#FF671B !important;
@@ -240,7 +249,7 @@ h2{
 	font-size: 12pt;
 }
 .footerC3{
-	margin-top: 210px;
+	margin-top: 110px;
 	/*height:323px;*/
 	width:100%;
 	font-size: 15pt;
