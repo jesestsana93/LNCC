@@ -19,6 +19,9 @@ a:active, a:hover{
 	text-decoration: none !important;
 	color: #FF671B !important;
 }
+.active{	
+
+}
 .dropdown-item:active {
     background-color:#fff !important;
 }
@@ -73,7 +76,6 @@ h1{
 	margin: auto;
 	position: relative;
 }
-
 .top{
 	position: relative;
 	top: 123px;

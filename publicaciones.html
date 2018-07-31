@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	    <meta charset="utf-8">
+	    <meta name="description" content="Desde 2014, el LNCC ha tenido el objetivo de investigar e innovar para contribuir a la solución de problemas nacionales mediante la generación y aplicación de conocimiento sobre el estudio científico de los sistemas complejos.">
+	    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+	    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+	    <link href='image/faviconLNCC.png' rel='shortcut icon' type='image/png'/>
+	    <title>Publicaciones</title>
+	    <link href="css/style.css" media="screen" rel="stylesheet" type="text/css">
+	    <link href="css/responsive.css" media="screen" rel="stylesheet" type="text/css">
+	    <link href="css/bootstrap.min.css" media="screen" rel="stylesheet" type="text/css">
+	    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	    <!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115398620-1"></script>
+		<script>
+		  	window.dataLayer = window.dataLayer || [];
+		  	function gtag(){dataLayer.push(arguments);}
+		  	gtag('js', new Date());
+
+		  	gtag('config', 'UA-115398620-1');
+		</script>
+
+	    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	    <script type="text/javascript" src="js/popper.js"></script>
+	    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+	    <script type="text/javascript" src="js/slick.min.js"></script>
+	    <script type="text/javascript" src="js/script.js"></script>
+
+  	</head>
+
+  	<body >
+
+	    <header>
+
+	    </header>
+
+	    <div id="header-mobile" class="mobile">
+			
+	    </div>
+
+		<div class="cont top">
+			<div id="menu-mobile" class="mobile">
+			</div>
+
+	    	<div class="cont">
+	          	<div id="bar-menu" class="cont">
+	            	<div class="container" >
+	              		<div class="text-right">
+	                		<ul id="horizontal-ul">
+			                  	<li><a href="infraestructura.html">Infraestructura</a> </li>
+			                  	<li class="active"><a href="colaboraciones.html">Colaboraciones</a> </li>
+			                  	<li><a href="lineasdeinvestigacion.html">Líneas de investigación</a> </li>
+			                  	<li><a href="participantes.html">Participantes</a> </li>
+			                  	<li><a href="proyectos.html">Proyectos</a> </li>
+			                  	<li><a href="servicios.html">Servicios</a> </li>
+			                  	<li><a href="publicaciones.html">Publicaciones</a> </li>
+	                		</ul>
+	                		<div id="nav-icon2">
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+	              		</div>
+	            	</div>
+	          	</div>
+
+  				<a href=""><img src="image/banner/publicaciones.jpg" class="image-responsive"></a>
+				<h3 class="col-md-12 col-xs-12 naranja">PUBLICACIONES</h3>
+
+				<p class="col-md-12 col-xs-12">Carreón, G., Gershenson, C. & Pineda, L. A. (2017). Improving public transportation systems with self-organization: A headway-based model and regulation of passenger alighting and boarding. ​PLOS ONE, 12(12):1–20. ​doi:10.1371/journal.pone.0190100​ ​</p>
+
+				<p class="col-md-12 col-xs-12">Zapotecatl, J., D. A. Rosenblueth & C. Gershenson (2017). Deliberative self-organizing traffic lights with elementary cellular automata. ​Complexity 2017:7691370. Doi: 10.1155/2017/7691370​ ​</p>
+
+				<p class="col-md-12 col-xs-12">Cortés-Berrueco, L.E., Gershenson, C. & Stephens, C. (2016). Modeling Freeway Traffic with Game Theory, ​PLoS ONE ​11​(11): e0165381. doi:​10.1371/journal.pone.0165381</p>
+
+			</div>
+  		</div>
+
+		<footer class="footerC3">
+
+	    </footer>
+
+	    <script type="text/javascript">
+	      	$(document).ready(function(){
+	        	$('.sliderBanner').slick({
+	          		dots: true,
+			        infinite: true,
+			        speed: 300,
+			        arrows: true,
+			        slidesToShow: 1,
+			        slidesToScroll: 1,
+			        autoplay: true,
+					autoplaySpeed: 3000,
+			        appendArrows: $(".hidden-arrows"),
+			        prevArrow: '<img class="prev" src="image/arrow.png">',
+			        nextArrow: '<img class="next" src="image/arrow.png">',
+	        	});
+	        	$(".arrows > .next").on("click", function(){
+	        		$(".hidden-arrows > .next").click()
+	        	});
+	        	$(".arrows > .prev").on("click", function(){
+	        		$(".hidden-arrows > .prev").click()
+	        	});
+		    });
+	    </script>
+
+  	</body>
+</html>

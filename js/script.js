@@ -77,8 +77,6 @@ function menu(){
 					<img src="`+pathImg+`/logos/CIAD.png" alt="CIAD">
 				</a>
 			</div>	
-
-	        		
 		</div>
 	`)
 };
@@ -193,17 +191,12 @@ function menuMobile(){
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`colaboradores.html" >
-							<div>Directorio</div>
+						<a href="`+path+`colaboraciones.html" >
+							<div>Colaboraciones</div>
 						</a>
 					</div>
 					<div>
-						<a href="`+path+`estr_acad.html" >
-							<div>Colaboradores</div>
-						</a>
-					</div>
-					<div>
-						<a href="`+path+`lineasinvestigacion.html" >
+						<a href="`+path+`lineasdeinvestigacion.html" >
 							<div>Líneas de Investigación</div>
 						</a>
 					</div>
@@ -253,7 +246,5 @@ function headerMobile(){
 		<a href="https://www.ciad.mx/" target="_blank" >
 			<img src="`+pathImg+`/logos/CIAD.png" alt="CIAD">
 		</a>
-		
-		
 	`);
 }
