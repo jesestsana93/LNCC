@@ -86,6 +86,25 @@ h1{
 	position: relative;
 	top: 123px;
 }
+
+/**Menu **/
+#bar-menu{
+	height: 30px;
+	background-color: #FF671B;
+	font-size: 25px;
+}
+#bar-menu ul{
+	margin: 0;
+	padding: 5px 0;
+}
+#bar-menu ul li{
+	display: inline;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+#bar-menu ul li a{
+	color: white !important;
+}
 /*Banner*/
 #banner{
 	width: 100%;
@@ -185,9 +204,9 @@ h1{
 .negro{
 	color: black;
 }
-.linea{	
+.linea{
 	height: 30px;
-	background-color:#FF671B !important; 
+	background-color:#FF671B !important;
 }
 hr{
    height:5px;
@@ -223,7 +242,7 @@ h2{
 .footerC3{
 	margin-top: 210px;
 	/*height:323px;*/
-	width:100%;	
+	width:100%;
 	font-size: 15pt;
 	color:white;
 }
@@ -295,4 +314,3 @@ ul.nav.navbar-right.nav-pills li{
 .btnvideo{
 	margin-left: 15px;
 }
-
