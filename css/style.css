@@ -19,8 +19,9 @@ a:active, a:hover{
 	text-decoration: none !important;
 	color: #FF671B !important;
 }
-.active{	
-
+.active2{	
+	background-color: green !important;
+	height:30px;
 }
 .dropdown-item:active {
     background-color:#fff !important;
@@ -46,7 +47,7 @@ header div{
 }
 header div img{
   height: 100%;
-  padding: 20px;
+  padding: 20px 10px;
 }
 header div nav{
   padding-top: 48px;
@@ -166,9 +167,9 @@ h1{
 	height: 150px;
 }
 hr{
-   height:5px;
+   height:1px !important;
    background-color:#FF671B !important; /**Orange */
-   border:solid;
+   border:none !important;
  }
 p{
 	font-size: 12pt;

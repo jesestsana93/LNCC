@@ -153,7 +153,7 @@ function footer(){
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 						<br>
-							<div class="thumbnail col-md-12 col-xs-12">
+							<div class="">
 								<a href="http://www.unamglobal.unam.mx/?p=7732" target="_blank">
 								<img src="`+pathImg+`/logos/UNAMOS.png" alt="UNAMOS" class="tamUNAMOS" align="left">
 								</a>
