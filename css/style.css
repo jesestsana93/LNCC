@@ -20,8 +20,9 @@ a:active, a:hover{
 	color: #FF671B !important;
 }
 .active2{	
-	background-color: green !important;
-	height:30px;
+	/*background-color: green !important;
+	height:30px;	
+	*/
 }
 .dropdown-item:active {
     background-color:#fff !important;
@@ -155,9 +156,9 @@ h1{
 .img-circle{
 	margin-top: 30px;	
 	margin-bottom: 15px;
-	margin-left: 60px;
-	width: 242px;
-	height: 242px;
+	margin-left: 10px;
+	width: 180px;
+	height: 180px;
 }
 .img-circle2{
 	margin-top: 30px;	
@@ -174,6 +175,9 @@ hr{
 p{
 	font-size: 12pt;
 }
+.textfoot{
+	font-size: 11pt;
+}
 h2{
 	font-size: 18pt !important;
 }
@@ -181,14 +185,18 @@ h2{
 	width: 100%;
 	margin-bottom: 15px;
 }
+.tamTab{
+	font-size: 15pt !important;
+}
 .tamCONACYT{
 	height: 100px;
 	width: 150px;
-	margin-left: 20px;
+	margin-left: 10px;	
 }
 .tamUNAM{
 	height: 110px;
 	width: 80px;
+	margin-left: 45px;
 }
 .tamUNAMOS{
 	height: 120px;
@@ -201,7 +209,7 @@ h2{
 	margin-top: 180px;
 	/*height:323px;*/
 	width:100%;
-	font-size: 15pt;
+	font-size: 8px !important;
 	color:white;
 }
 @font-face {

@@ -61,12 +61,12 @@ function menu(){
 	}
 	$('header').append(`
 		<div class="container">
-			<div class="col-4 float">
+			<div class="col-2 float">
 				<a href="index.html" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a UNAM.mx'});">
 					<img src="`+pathImg+`/logos/LNCC.png" alt="LNCC">
 				</a>
 			</div>
-			<div class="col-8 float text-right">
+			<div class="col-10 float text-right">
 				<a href="`+path+`https://www.c3.unam.mx/" target="_blank" onclick="gtag('event', 'formulario', {'event_category':'header', 'event_action':'click','event_label':'Ir a home'});">
 					<img src="`+pathImg+`/logos/C3.png" alt="C3" >
 				</a>
@@ -94,59 +94,59 @@ function footer(){
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<div class="row">
-						<div class="col-sm-12 col-md-5">
-						<br>
+						<div class="col-sm-12 col-md-5"><br>
 							<strong>
-								<h3>LIGAS DE INTERÉS</h3>
-							</strong> <br>
-							<a href="https://www.unam.mx/" target="_blank" class="tamLinks negro">
+								<h4>LIGAS DE INTERÉS</h4>
+							</strong> 
+							<a href="https://www.unam.mx/" target="_blank" class="textfoot negro">
 								<p>Universidad Nacional Autónoma de México
 							</a>
 							<br>
-							<a href="http://www.unamenlinea.unam.mx/" target="_blank" class="tamLinks negro">
+							<a href="http://www.unamenlinea.unam.mx/" target="_blank" class="textfoot negro">
 								Toda la UNAM en línea
 							</a>
 							<br>
-							<a href="http://www.ddu.unam.mx/" target="_blank" class="tamLinks negro">
+							<a href="http://www.ddu.unam.mx/" target="_blank" class="textfoot negro">
 								Defensoría de los Derechos Universitarios
 							</a>
 							<br>
-							<a href="http://www.pudh.unam.mx/" target="_blank" class="tamLinks negro">
+							<a href="http://www.pudh.unam.mx/" target="_blank" class="textfoot negro">
 								Programa Universitario de Derechos Humanos UNAM
 							</a>
 							<br>
-							<a href="http://www.transparencia.unam.mx/" target="_blank" class="tamLinks negro">
+							<a href="http://www.transparencia.unam.mx/" target="_blank" class="textfoot negro">
 								Portal de transparencia
 							</a>
 							<br>
-							<a href="https://www.unam.mx/telefonos-y-medidas-de-emergencia" target="_blank" class="tamLinks negro">
+							<a href="https://www.unam.mx/telefonos-y-medidas-de-emergencia" target="_blank" class="textfoot negro">
 								Teléfonos de emergencia
 							</a>
 							<br>
-							<a href="http://www.gaceta.unam.mx/" target="_blank" class="tamLinks negro">
-							Gaceta UNAM
+							<a href="http://www.gaceta.unam.mx/" target="_blank" class="textfoot negro">
+							Gaceta UNAM</p>
 							</a>
 							<br>
 						</div>
 
-						<div class="col-sm-12 col-md-4">
-							<br>
+						<div class="col-sm-12 col-md-4"><br>
 							<strong>
-								<h3>CONTACTO LNCC</h3>
-							</strong> <br>
-							<p>Circuito Centro Cultural S/N, (frente a Universum), Cd. Universitaria,
+								<h4>CONTACTO LNCC</h4> 
+							</strong> 
+							<p class="textfoot">Circuito Centro Cultural S/N, (frente a Universum), Cd. Universitaria,
 							 Delegación Coyoacán, 04510, CDMX. <br>
 							5622 6730 <br>
 							lncc@c3.unam.mx</p>
-							<p>QUEJAS Y SUGERENCIAS</p>
+							<h4>QUEJAS Y SUGERENCIAS</h4>
 						</div>
 						<div class="col-sm-12 col-md-3">
+						<div class="row">
 							<a href="https://www.unam.mx/" target="_blank">
 								<img src="`+pathImg+`/logos/UNAM.png" alt="UNAM" class="tamUNAM" >
 							</a>
 							<a href="https://www.conacyt.gob.mx/" target="_blank">
 								<img src="`+pathImg+`/logos/CONACYT.png" alt="CONACYT" class="tamCONACYT" >
 							</a>
+							</div>
 						</div>
 					</div>
 
@@ -159,7 +159,7 @@ function footer(){
 								</a>
 							</div>
 							<div class="caption">
-								<p>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos 
+								<p class="textfoot">Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos 
 								los derechos reservados 2018.Esta página y sus contenidos pueden ser 
 								reproducidos con fines no lucrativos, siempre y cuando no se mutile, 
 								se cite la fuente completa y su dirección electrónica.De otra forma,

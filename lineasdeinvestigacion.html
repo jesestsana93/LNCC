@@ -80,30 +80,5 @@
 		<footer class="footerC3">
 
 	    </footer>
-
-	    <script type="text/javascript">
-	      	$(document).ready(function(){
-	        	$('.sliderBanner').slick({
-	          		dots: true,
-			        infinite: true,
-			        speed: 300,
-			        arrows: true,
-			        slidesToShow: 1,
-			        slidesToScroll: 1,
-			        autoplay: true,
-					autoplaySpeed: 3000,
-			        appendArrows: $(".hidden-arrows"),
-			        prevArrow: '<img class="prev" src="image/arrow.png">',
-			        nextArrow: '<img class="next" src="image/arrow.png">',
-	        	});
-	        	$(".arrows > .next").on("click", function(){
-	        		$(".hidden-arrows > .next").click()
-	        	});
-	        	$(".arrows > .prev").on("click", function(){
-	        		$(".hidden-arrows > .prev").click()
-	        	});
-		    });
-	    </script>
-
   	</body>
 </html>

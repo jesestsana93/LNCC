@@ -1,3 +1,23 @@
+@media screen and (max-width: 1024px) {
+  .tam {
+    height: 70%;
+  }
+  header div img{
+    height: 82%;
+    margin-top: 11px;
+  }
+  .slick-dots{
+    display: none !important;
+  }  
+   #bar-menu{height: 50px;}
+  
+  #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4{
+    margin-top: 8px !important;
+    margin-right: -5px;
+  }
+ 
+}
+
 @media screen and (max-width: 990px) {
   .tam {
     height: 70%;
@@ -9,6 +29,14 @@
   .slick-dots{
     display: none !important;
   }  
+   #bar-menu{height: 50px;}
+  #bar-menu ul{
+    display: none;
+  }
+  #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4{
+    margin-top: 8px !important;
+    margin-right: -5px;
+  }
 }
 
 @media screen and (max-width: 830px) {
@@ -27,6 +55,8 @@
   }
   #header-mobile{
     width: 100%;
+    padding-top: 23px;
+    text-align: center;
     background: white;
     height: 80px;
     position: fixed;
@@ -34,8 +64,8 @@
   }
   #header-mobile img{
     display: inline-block;
-    height: 93%;
-    padding: 13px;
+    height: 35px;
+    padding: 0;
   }
   #menu-mobile{
     position: fixed;
@@ -192,7 +222,7 @@
     font-size: 15pt;
   }
   .footerC3{
-    margin-top: 180px;
+    margin-top: 110px;
   }
   .foot{
     background-color: white;
@@ -200,46 +230,18 @@
 }
 
 @media screen and (max-width: 575px){
-  #social a.elecciones{
-    float: none !important;
-    line-height: inherit !important;
-  }
-  .infoNot {
-    height: 240px;
-  }
-  .body-card {
-    height: 75px;
-  }
-  .body-card p {
-    -webkit-line-clamp: 3;
-  }
-  #vincularse .videoVinc{
-    width: 100%;
-    float: none;
-  }
-  #vincularse .ifovideoY{
-    display: none;
+  #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4{
+    margin: 8px 15px 23px 0 !important;
   }
 }
 
 @media screen and (max-width: 425px) {  
-  #social{
-    height: 60px;
-  }
-  #social a.elecciones{
-    font-size: 12px;
-  }
-  #noticias{
-    height: 348px;
-  }
-  .arrowsNoticias {
-    bottom: 89px !important;
-  }
   #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4{
     margin: 8px 15px 23px 0 !important;
   }
-  .c3medios{
-    height: 150px;
-    overflow: hidden;
-  }
+}
+@media screen and (max-width: 325px){
+    #header-mobile img{
+        height: 30px;
+    }
 }
