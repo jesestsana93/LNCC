@@ -136,7 +136,7 @@ function footer(){
 							 Delegación Coyoacán, 04510, CDMX. <br>
 							5622 6730 <br>
 							lncc@c3.unam.mx</p>
-							<h4>QUEJAS Y SUGERENCIAS</h4>
+							<a href="mailto:buzon.lncc@c3.unam.mx, laboratorios@conacyt.mx" class="negro" target="_blank"><h4>BUZON DE QUEJAS Y SUGERENCIAS</h4></a>
 						</div>
 						<div class="col-sm-12 col-md-3">
 						<div class="row">
