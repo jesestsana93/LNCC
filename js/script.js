@@ -94,7 +94,7 @@ function footer(){
 			<div class="row">
 				<div class="col-sm-12 col-md-12">
 					<div class="row">
-						<div class="col-sm-12 col-md-5"><br>
+						<div class="col-sm-12 col-md-5">
 							<strong>
 								<h4>LIGAS DE INTERÉS</h4>
 							</strong> 
@@ -128,7 +128,7 @@ function footer(){
 							<br>
 						</div>
 
-						<div class="col-sm-12 col-md-4"><br>
+						<div class="col-sm-12 col-md-4">
 							<strong>
 								<h4>CONTACTO LNCC</h4> 
 							</strong> 
