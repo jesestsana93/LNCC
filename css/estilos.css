@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/*------------------------------
+1. TIPOGRAFIA DEL SITIO
+--------------------------------*/
+html {
+  font-size: 14px;
+}
+
+/*------------------------------
+2. ESTILOS GENERALES
+--------------------------------*/
+.bg-primary {
+  background-color: #FF671B !important;
+}
+
+/*------------------------------
+3. INICIO
+--------------------------------*/
+#inicio {
+  /*Boton del menu */
+}
+#inicio #encabezado {
+  /*Estilos a los logotipos de las instituciones*/
+}
+#inicio #encabezado .logo img {
+  width: 9rem;
+  height: auto;
+}
+#inicio .navbar {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+#inicio .navbar-dark .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding: .5rem;
+}
+#inicio .navbar-dark .navbar-nav .nav-link.active {
+  background-color: white;
+  color: #FF671B;
+}
+#inicio .boton-menu:before {
+  content: "\f0c9";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: white;
+  font-size: 2.5rem;
+}
+#inicio .boton-menu:before:focus, #inicio .boton-menu:before:active {
+  outline: none;
+}
+#inicio .icono-cerrar:before {
+  content: "\f00d";
+  position: relative;
+  left: .2rem;
+  font-size: 2.5rem;
+}
+#inicio .banner {
+  margin-top: 8rem;
+}
+
+/*------------------------------
+4. MAIN
+--------------------------------*/
+#principal .secciones {
+  width: 12rem;
+}
+#principal a {
+  text-decoration: none;
+}
+#principal a .titulo {
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #FF671B;
+  padding-top: .3rem;
+}
+#principal h1 {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+/*------------------------------
+5. FOOTER
+--------------------------------*/
+#footer hr {
+  height: 1px;
+  background-color: #FF671B;
+  border: none !important;
+}
+#footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+#footer a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+#footer a:hover {
+  color: #FF671B;
+}
+#footer h3 {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+#footer p {
+  margin-bottom: 0;
+}
+#footer .logoUNAM {
+  width: 6rem;
+  height: auto;
+}
+#footer .logoCONACYT {
+  width: 10.4rem;
+  height: auto;
+}
+#footer .logoUNAMOS {
+  width: 8.5rem;
+}
+
+/* =============================================
+6. PAGINAS INTERNAS
+============================================= */
+#main-interno {
+  /*Estilos a los titulos de las paginas internas*/
+}
+#main-interno .titulo-seccion {
+  color: #FF671B;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+#main-interno .nav-tabs {
+  border-bottom: 1px solid #FF671B;
+  margin-bottom: 1rem;
+}
+#main-interno .nav-tabs .nav-link {
+  border: 1px solid #FF671B;
+  margin-right: .3rem;
+}
+#main-interno .nav-tabs .nav-item.show .nav-link, #main-interno .nav-tabs .nav-link.active {
+  color: white;
+  background-color: #FF671B;
+  border-color: #FF671B #FF671B white;
+  text-transform: uppercase;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+#main-interno .nav-tabs > li > a,
+#main-interno .nav-tabs a {
+  color: #FF671B;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+#main-interno .participantes {
+  /*Estilos a las imágenes de la página participantes*/
+}
+#main-interno .participantes .foto {
+  width: 9.4rem;
+  margin-bottom: 1rem;
+}
+#main-interno .participantes p {
+  margin-bottom: 0;
+}
+
+/* =============================================
+X. Show de las Medias Queries
+============================================= */
+/* --------------Vista sm ------------- */
+@media (min-width: 576px) {
+  #inicio .banner {
+    margin-top: 10rem;
+  }
+}
+/* --------------Vista Md ------------- */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  #inicio {
+    /*Estilos para los enlaces del menu para tablets*/
+  }
+  #inicio #encabezado {
+    /*Estilos a los logotipos de las instituciones*/
+  }
+  #inicio #encabezado .logo img {
+    width: 8rem;
+  }
+  #inicio .contenedorNav {
+    max-width: 720px;
+    margin: auto;
+    position: relative;
+    height: 1.8rem;
+  }
+  #inicio .navbar-expand-md .navbar-nav .nav-link {
+    padding: .45rem .6rem;
+  }
+  #inicio .navbar-dark .navbar-nav .nav-link {
+    font-size: .6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  #inicio .banner {
+    margin-top: 7rem;
+  }
+}
+/* --------------Vista Lg ------------- */
+@media (min-width: 992px) {
+  #inicio {
+    /*Estilos para los enlaces del menu para desktop*/
+  }
+  #inicio #encabezado {
+    /*Estilos a los logotipos de las instituciones*/
+  }
+  #inicio #encabezado .logo img {
+    width: 10rem;
+  }
+  #inicio .contenedorNav {
+    max-width: 960px;
+  }
+  #inicio .navbar-expand-md .navbar-nav .nav-link {
+    padding: .3rem .8rem;
+  }
+  #inicio .navbar-dark .navbar-nav .nav-link {
+    font-size: .8rem;
+  }
+  #inicio .banner {
+    margin-top: 9rem;
+  }
+}
+/* --------------Vista Xl ------------- */
+@media (min-width: 1200px) {
+  font-size: 17px;
+  #inicio {
+    /*Estilos para los enlaces del menu para pantallas mayores*/
+  }
+  #inicio .contenedorNav {
+    max-width: 1108px;
+  }
+  #inicio .navbar-expand-md .navbar-nav .nav-link {
+    padding: .3rem 1.3rem;
+  }
+  #inicio .navbar-dark .navbar-nav .nav-link {
+    font-size: .85rem;
+  }
+  #inicio .banner {
+    margin-top: 9.3rem;
+  }
+}

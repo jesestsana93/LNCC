@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Infraestructura</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href='images/faviconLNCC.png' rel='shortcut icon' type='image/png' />
+
+    <!--ETIQUETAS PARA EL SEO-->
+    <meta name="keywords"
+        content="Laboratorio Nacional de Ciencias de la Complejidad, UNAM, C3, Centro de Ciencias de la Complejidad">
+    <meta name="description"
+        content="El LNCC cuenta con una infraestructura Saas (Software as a Service) que provee un ambiente Hadoop para el análisis de datos masivos. El uso y acceso a esta infraestructura está dirigido a organizaciones y grupos que poseen grandes cantidades de información y que desees realizar análisis mediante las herramientas Hadoop.">
+    <meta name="author" content="Jesús Esteban Sánchez Alcántara">
+    <meta name="owner" content="Laboratorio Nacional de Ciencias de la Complejidad">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://lncc.c3.unam.mx/infraestructura.html" />
+
+    <!--CARGA DE ESTILOS CSS DE BOOTSTRAP 4.5.2-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--  CARGA DE FONT AWESOME -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!--CARGA DE ESTILOS CSS PERSONALIZADOS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!--=====================================
+    =            Sección inicio            =
+    ======================================-->
+    <section id="inicio">
+        <header class="fixed-top" id="encabezado">
+            <!--ENCABEZADO DEL SITIO-->
+            <div class="container bg-white">
+                <div class="row">
+                    <div class="col-3 col-md-2 d-flex align-items-center">
+                        <a href="index.html">
+                            <img src="images/logos/LNCC.png" alt="Logo LNCC" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-9 col-md-10 d-flex justify-content-end align-items-center">
+                        <a href="https://www.c3.unam.mx/" target="_blank" class="logo">
+                            <img src="images/logos/C3.png" alt="Logo del C3" class="img-fluid">
+                        </a>
+                        <a href="https://elcolegiodemorelos.edu.mx/" target="_blank" class="logo">
+                            <img src="images/logos/MORELOS.png" alt="Logo del Colegio de Morelos" class="img-fluid">
+                        </a>
+                        <a href="https://www.ciad.mx/" target="_blank" class="logo">
+                            <img src="images/logos/CIAD.png" alt="Logo CIAD" class="img-fluid">
+                        </a>
+                    </div>
+                </div><!-- /.row-->
+            </div><!-- /.container-->
+
+            <!--MENU DE NAVEGACION DEL SITIO-->
+            <nav id="menu-navegacion" class="navbar navbar-dark bg-primary contenedorNav navbar-expand-md">
+                <!--Botón del menú responsive-->
+                <button type="button" class="navbar-toggler d-md-none" data-toggle="collapse"
+                    data-target="#menu-principal" aria-controls="menu-principal" arial-expanded="false"
+                    arial-label="Desplegar menu de navegacion">
+                    <span class="boton-menu"></span>
+                </button>
+
+                <!--Barra de navegacion-->
+                <div id="menu-principal" class="collapse navbar-collapse">
+                    <ul class="navbar-nav m-auto">
+                        <li class="nav-item">
+                            <a href="infraestructura.html" class="nav-link active">Infraestructura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="colaboraciones.html" class="nav-link">Colaboraciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="lineasdeinvestigacion.html" class="nav-link">Líneas de investigación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="participantes.html" class="nav-link">Participantes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="proyectos.html" class="nav-link">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="servicios.html" class="nav-link">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="publicaciones.html" class="nav-link">Publicaciones</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header><!-- /.navbar-fixed-top-->
+        <div class="container px-0 px-xl-3">
+            <img src="images/banner/infraestructura.jpg" alt="Banner de infraestructura" class="img-fluid banner">
+        </div><!-- /.container-->
+    </section><!-- /#inicio-->
+
+    <!--=====================================
+    =                Main                   =
+    ======================================-->
+    <main id="main-interno">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="titulo-seccion">Infraestructura</h1>
+                    <p>El LNCC cuenta con una infraestructura Saas (Software as a Service) que provee un ambiente Hadoop
+                        para el análisis de datos masivos. El uso y acceso a esta infraestructura está dirigido a
+                        organizaciones y grupos que poseen grandes cantidades de información y que desees realizar
+                        análisis mediante las herramientas Hadoop.</p>
+                    <!--Nav tabs-->
+                    <nav>
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-procesamientonumerico" data-toggle="tab" href="#nav-numerico"
+                                role="tab" aria-controls="nav-numerico" aria-selected="true">Cluster de procesamiento numérico</a>
+                            <a class="nav-item nav-link" id="nav-procesamientodatos" data-toggle="tab" href="#nav-datos"
+                                role="tab" aria-controls="nav-datos" aria-selected="false">Cluster de procesamiento de datos</a>                            
+                        </div>
+                    </nav>
+                    <!--Tab content-->
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-numerico" role="tabpanel"
+                            aria-labelledby="nav-procesamientonumerico">
+                            <ul>
+                                <li>21 servidores de alto rendimiento</li>
+                                <ul>
+                                    <li>24 cores, 128 Gigabytes de RAM</li>
+                                </ul>
+                                <li>Red de alta velocidad, baja latencia</li>
+                                <ul>
+                                    <li>Infinidad FDR, 56 Gigabits por segundo</li>
+                                </ul>
+                                <li>Sistema de archivos paralelo</li>
+                                <ul>
+                                    <li>Lustre, 230 Terabytes</li>
+                                </ul>
+                                <li>Total</li>
+                                <ul>
+                                    <li>504 procesadores</li>
+                                    <li>2.7 Terabytes de RAM</li>
+                                    <li>230 Terabytes de almacenamiento</li>
+                                </ul>
+                            </ul>                        
+                        </div><!-- /#nav-numerico-->
+                        <div class="tab-pane fade" id="nav-datos" role="tabpanel" aria-labelledby="nav-procesamientodatos">
+                            <ul>
+                                <li>6 servidores de datos</li>
+                                <ul>
+                                    <li>126 Terabytes de almacenamiento</li>
+                                    <li>14 cores, 128 Gigabytes de RAM</li>
+                                    <li>Red Infiniband</li>
+                                </ul>
+                                <li>Total</li>
+                                <ul>
+                                    <li>756 Terabytes de almacenamiento</li>
+                                    <li>84 cores, 768 Gigabytes RAM</li>
+                                </ul>
+                                <li>La infraestructura total suma 1 Petabyte de almacenamiento, más de 600 cores y más de 3 Terabytes de RAM</li>
+                            </ul>                        
+                        </div><!-- /#nav-datos-->                       
+                    </div><!-- /.tab-content-->
+                </div><!-- /.col-12-->
+            </div><!-- /.row-->
+        </div><!-- /.container-->
+    </main><!-- /#main-interno-->
+
+    <!--=====================================
+    =                Footer                  =
+    ======================================-->
+    <footer id="footer">
+        <div class="container mt-4">
+            <hr>
+            <div class="row">
+                <div class="col-md-5 d-flex flex-column align-items-center align-items-md-start">
+                    <h3>Ligas de interes</h3>
+                    <ul>
+                        <li><a href="https://www.unam.mx/" target="_blank">Universidad Nacional Autónoma de
+                                México</a></li>
+                        <li><a href="http://www.unamenlinea.unam.mx/" target="_blank">Toda la UNAM en línea</a></li>
+                        <li><a href="http://www.ddu.unam.mx/" target="_blank">Defensoría de los Derechos
+                                Universitarios</a></li>
+                        <li><a href="http://www.pudh.unam.mx/" target="_blank">Programa Universitario de Derechos
+                                Humanos UNAM</a></li>
+                        <li><a href="http://www.transparencia.unam.mx/">Portal de transparencia</a></li>
+                        <li><a href="https://www.unam.mx/telefonos-y-medidas-de-emergencia" target="_blank">Teléfonos de
+                                emergencia</a></li>
+                        <li><a href="http://www.gaceta.unam.mx/" target="_blank">Gaceta UNAM</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 d-flex flex-column align-items-center align-items-md-start">
+                    <h3>Contacto LNCC</h3>
+                    <p class="mx-sm-5 px-sm-5 mx-md-0 px-md-0">Circuito Centro Cultural S/N, (frente a Universum), Cd.
+                        Universitaria,
+                        Delegación Coyoacán, 04510, CDMX. </p>
+                    <p>5622 6730 </p>
+                    <p class="pb-3">lncc@c3.unam.mx</p>
+                    <a href="mailto:buzon.lncc@c3.unam.mx, laboratorios@conacyt.mx" target="_blank"
+                        class="text-uppercase h1">
+                        Buzón de quejas y sugerencias
+                    </a>
+                </div>
+                <div
+                    class="col-md-3 d-flex justify-content-center flex-md-column align-items-md-center flex-lg-row align-items-lg-start">
+                    <a href="https://www.unam.mx/" target="_blank">
+                        <img src="images/logos/UNAM.png" alt="Logo UNAM" class="img-fluid logoUNAM">
+                    </a>
+                    <a href="https://www.conacyt.gob.mx/" target="_blank">
+                        <img src="images/logos/CONACYT.png" alt="Logo CONACYT" class="img-fluid logoCONACYT">
+                    </a>
+                </div>
+            </div><!-- /.row-->
+            <div class="row">
+                <div class="col-md-3 col-lg-2 d-flex justify-content-center">
+                    <a href="http://www.unamglobal.unam.mx/?p=7732" target="_blank">
+                        <img src="images/logos/UNAMOS.png" alt="Logo UNAM Nacion" class="img-fluid logoUNAMOS">
+                    </a>
+                </div>
+                <div class="col-md-9 col-lg-10 d-flex align-items-center">
+                    <p>Hecho en México, Universidad Nacional Autónoma de México (UNAM), todos los derechos reservados
+                        2018. Esta página y sus contenidos pueden ser reproducidos con fines no lucrativos, siempre y
+                        cuando no se mutile, se cite la fuente completa y su dirección electrónica.De otra forma,
+                        requiere permiso previo por escrito de la institución.</p>
+                </div>
+            </div><!-- /.row-->
+        </div><!-- /.container-->
+    </footer>
+
+    <!-- CARGAR DE JQUERY -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- CARGA DE BOOTSTRAP JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Carga de scripts.js -->
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

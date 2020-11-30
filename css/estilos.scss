@@ -1,0 +1,317 @@
+//--------------------------------------
+// 			PALETA DE COLORES
+//--------------------------------------
+$principal: #FF671B;
+$secundario: white;
+
+/*------------------------------
+1. TIPOGRAFIA DEL SITIO
+--------------------------------*/
+html {
+    font-size: 14px;
+}
+
+
+/*------------------------------
+2. ESTILOS GENERALES
+--------------------------------*/
+.bg-primary {
+    background-color: $principal !important;
+}
+
+/*------------------------------
+3. INICIO
+--------------------------------*/
+#inicio {
+
+    #encabezado {
+
+        /*Estilos a los logotipos de las instituciones*/
+        .logo img {
+            width: 9rem;
+            height: auto;
+        }
+    }
+
+    .navbar {
+        justify-content: flex-end;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: $secundario;
+        text-align: center;
+        padding: .5rem;       
+
+        &.active{
+            background-color: $secundario;
+            color:$principal;            
+        }
+    }
+
+    /*Boton del menu */
+    .boton-menu:before {
+        content: "\f0c9";
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        color: $secundario;
+        font-size: 2.5rem;
+
+        &:focus,
+        &:active {
+            outline: none;
+        }
+
+    }
+
+    .icono-cerrar:before {
+        content: "\f00d";
+        position: relative;
+        left: .2rem;
+        font-size: 2.5rem;
+    }
+
+    .banner {
+        margin-top: 8rem;
+    }
+}
+
+/*------------------------------
+4. MAIN
+--------------------------------*/
+#principal {
+    .secciones {
+        width: 12rem;
+    }
+
+    a {
+        text-decoration: none;
+
+        .titulo {
+            font-size: 1.1rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: $principal;
+            padding-top: .3rem;
+        }
+    }
+
+    h1 {
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+}
+
+/*------------------------------
+5. FOOTER
+--------------------------------*/
+#footer {
+    hr {
+        height: 1px;
+        background-color: $principal;
+        border: none !important;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+
+    a {
+        font-size: 1rem;
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            color: $principal;
+        }
+    }
+
+    h3 {
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    .logoUNAM {
+        width: 6rem; //80px
+        height: auto;
+    }
+
+    .logoCONACYT {
+        width: 10.4rem; //150px
+        height: auto;
+    }
+
+    .logoUNAMOS {
+        width: 8.5rem;
+    }
+
+}
+
+/* =============================================
+6. PAGINAS INTERNAS
+============================================= */
+#main-interno {
+
+    /*Estilos a los titulos de las paginas internas*/
+    .titulo-seccion {
+        color: $principal;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .nav-tabs {
+        border-bottom: 1px solid $principal;
+        margin-bottom: 1rem;
+    }
+    .nav-tabs .nav-link {
+        border: 1px solid $principal;
+        margin-right: .3rem;
+    }
+
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: $secundario;
+        background-color: $principal;
+        border-color:$principal $principal $secundario;
+        text-transform: uppercase;
+        transition: all .5s ease;        
+    }
+  
+    .nav-tabs>li>a,
+    .nav-tabs a{
+        color: $principal;
+        text-transform: uppercase;
+        font-size: .8rem;
+    }
+    
+    .participantes {
+
+        /*Estilos a las imágenes de la página participantes*/
+        .foto {
+            width: 9.4rem;
+            margin-bottom: 1rem;
+        }
+
+        p{
+            margin-bottom: 0;
+        }
+
+    }
+
+}
+
+
+/* =============================================
+X. Show de las Medias Queries
+============================================= */
+/* --------------Vista sm ------------- */
+@media (min-width: 576px) {
+    #inicio {
+        .banner {
+            margin-top: 10rem;
+        }
+    }
+}
+
+/* --------------Vista Md ------------- */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    #inicio {
+        #encabezado {
+
+            /*Estilos a los logotipos de las instituciones*/
+            .logo img {
+                width: 8rem;
+            }
+        }
+
+        .contenedorNav {
+            max-width: 720px;
+            margin: auto;
+            position: relative;
+            height: 1.8rem;
+        }
+
+        /*Estilos para los enlaces del menu para tablets*/
+        .navbar-expand-md .navbar-nav .nav-link {
+            padding: .45rem .6rem;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            font-size: .6rem;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+
+        .banner {
+            margin-top: 7rem;
+        }
+    }
+}
+
+
+/* --------------Vista Lg ------------- */
+@media (min-width: 992px) {
+    #inicio {
+        #encabezado {
+
+            /*Estilos a los logotipos de las instituciones*/
+            .logo img {
+                width: 10rem;
+            }
+        }
+
+        .contenedorNav {
+            max-width: 960px;
+        }
+
+        /*Estilos para los enlaces del menu para desktop*/
+        .navbar-expand-md .navbar-nav .nav-link {
+            padding: .3rem .8rem;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            font-size: .8rem;
+        }
+
+        .banner {
+            margin-top: 9rem;
+        }
+    }
+}
+
+/* --------------Vista Xl ------------- */
+@media (min-width: 1200px) {
+    font-size: 17px;
+
+    #inicio {
+        .contenedorNav {
+            max-width: 1108px;
+        }
+
+        /*Estilos para los enlaces del menu para pantallas mayores*/
+        .navbar-expand-md .navbar-nav .nav-link {
+            padding: .3rem 1.3rem;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            font-size: .85rem;
+        }
+
+        .banner {
+            margin-top: 9.3rem;
+        }
+    }
+}
