@@ -1,7 +1,15 @@
 @charset "UTF-8";
+@font-face {
+  font-family: Din;
+  src: url(../fonts/DINPro.ttf);
+}
 /*------------------------------
 1. TIPOGRAFIA DEL SITIO
 --------------------------------*/
+* {
+  font-family: Din;
+}
+
 html {
   font-size: 14px;
 }
