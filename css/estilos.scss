@@ -50,7 +50,8 @@ html {
         text-align: center;
         padding: .5rem;       
 
-        &.active{
+        &.active,
+        &:hover{
             background-color: $secundario;
             color:$principal;            
         }

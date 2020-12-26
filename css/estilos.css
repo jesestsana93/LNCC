@@ -46,7 +46,7 @@ html {
   text-align: center;
   padding: .5rem;
 }
-#inicio .navbar-dark .navbar-nav .nav-link.active {
+#inicio .navbar-dark .navbar-nav .nav-link.active, #inicio .navbar-dark .navbar-nav .nav-link:hover {
   background-color: white;
   color: #FF671B;
 }
